@@ -279,7 +279,7 @@ Last Marlin Merge : 2022.11.03
 
 // Show the Marlin bootscreen on startup. ** ENABLE FOR PRODUCTION **
 #if ENABLED(GraphicalLCD) || ENABLED(HORNET)
-  #define SHOW_BOOTSCREEN
+  //#define SHOW_BOOTSCREEN
 #endif
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
 #if ENABLED(GraphicalLCD) || ENABLED(HORNET)
